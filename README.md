@@ -1,5 +1,5 @@
 # Live App
-https://coins-cave-kripto-takip.vercel.app/
+https://coinscave.netlify.app/
 
 # Getting Started with Create React App
 
