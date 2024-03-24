@@ -11,7 +11,15 @@ const Footer = () => {
         marginTop: 10,
       }}
     >
-      <h4>© 2021 Barış Can Çifçi</h4>
+      <h4
+        style={{
+          color: "black",
+          fontSize: 20,
+          fontWeight: "bold",
+        }}
+      >
+        © 2024 Barış Can Çifçi
+      </h4>
     </div>
   );
 };

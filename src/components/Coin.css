@@ -1,6 +1,7 @@
 .coin-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #fff;
   color: rgb(33, 37, 41);
   height: 100%;
@@ -14,6 +15,7 @@
   height: 80px;
   border-bottom: 1px solid rgb(33, 37, 41);
   width: 900px;
+  padding-top: 8px;
 }
 
 .coin {
@@ -33,6 +35,14 @@
   height: 30px;
   width: 30px;
   margin-right: 10px;
+}
+
+.coin-price {
+  font-weight: bold;
+}
+
+.coin-volume {
+  font-weight: bold;
 }
 
 .coin-symbol {
@@ -68,4 +78,64 @@
 
 .coin-price {
   margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .coin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coin-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .coin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coin-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .coin h1 {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2px;
+  }
+
+  .coin img {
+    height: 40px;
+    width: 40px;
+    margin-right: 0px;
+  }
+
+  .coin-volume {
+    width: 100%;
+  }
+
+  .coin-marketcap {
+    width: 100%;
+  }
+
+  .coin-percent {
+    width: 100px;
+  }
+
+  .coin-price {
+    margin-right: 10px;
+  }
 }

@@ -36,7 +36,7 @@ function App() {
       <div className="coin-search">
         <h1 className="coin-text">Kripto Paraları Takip Edin</h1>
         <p className="coin-text" style={{ color: "black", fontSize: 18 }}>
-          yüzden fazla elektronik para birimini güncel olarak takip et.
+          elektronik para birimlerini güncel takip et.
         </p>
         <form>
           <input
